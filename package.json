@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@coracle.social/lib": "^0.0.4",
+    "@coracle.social/network": "^0.0.7",
+    "@coracle.social/util": "^0.0.6",
+    "dotenv": "^16.4.5",
+    "nikabrik": "^0.0.6"
+  }
+}
