@@ -32,7 +32,8 @@ const startDVM = () =>
         handleEvent: async function* (event) {
           console.log(event)
           yield createEvent(event.kind + 1000, {
-            tags: withExpiration(tags),
+            content: JSON.stringify(tags),
+            tags: withExpiration([])
           })
         },
       }),
